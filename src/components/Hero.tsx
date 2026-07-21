@@ -129,7 +129,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-gray-600 dark:text-gray-400 font-sans text-base sm:text-lg max-w-lg mx-auto lg:mx-0 leading-relaxed font-light"
           >
-            Senior Frontend Engineer specialized in building high-performance <span className="text-gray-900 dark:text-white italic font-serif">user interfaces</span> and visually immersive experiences with clean code.
+            Frontend Web Developer specialized in building high-performance <span className="text-gray-900 dark:text-white italic font-serif">user interfaces</span> and visually immersive experiences with clean code.
           </motion.p>
 
           {/* Action Call-to-actions */}
@@ -245,7 +245,7 @@ export default function Hero() {
             {/* Main Profile Portrait Frame */}
             <div className="absolute inset-4 rounded-2xl bg-gray-950/40 backdrop-blur-sm overflow-hidden border border-white/10 dark:border-white/5 flex items-center justify-center z-10 shadow-inner">
               <img
-                src="/src/assets/images/developer_profile_avatar_1784610160374.jpg"
+                src="https://i.ibb.co.com/hRfj07x0/Whats-App-Image-2026-04-17-at-3-49-16-PM.jpg"
                 alt="Mohammad Abdullah - Frontend Developer & AI Integration Specialist"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 select-none"
                 referrerPolicy="no-referrer"

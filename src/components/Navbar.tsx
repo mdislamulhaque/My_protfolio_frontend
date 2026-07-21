@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon, Download, CodeXml } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { developerProfile } from '../data';
+import { generateResume } from '../utils/generateResume';
 
 interface NavbarProps {
   isDark: boolean;
@@ -134,7 +135,8 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
           {/* Download Resume */}
           <a
             id="resume-btn-desktop"
-            href={developerProfile.resumeUrl}
+            // href={developerProfile.resumeUrl}
+            onClick={generateResume}
             className="flex items-center gap-2 px-5 py-2.5 bg-gray-900 hover:bg-indigo-600 dark:bg-white dark:hover:bg-indigo-500 text-white dark:text-gray-900 dark:hover:text-white rounded-full font-sans font-medium text-sm transition-all duration-300 shadow-md hover:shadow-indigo-600/25 dark:hover:shadow-indigo-500/20"
           >
             <span>CV</span>
@@ -195,7 +197,8 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
               <div className="pt-4 border-t border-gray-200 dark:border-gray-800 mt-2 flex flex-col gap-3">
                 <a
                   id="resume-btn-mobile"
-                  href={developerProfile.resumeUrl}
+                  // href={developerProfile.resumeUrl}
+                  onClick={generateResume}
                   className="flex items-center justify-center gap-2 w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-sans font-medium text-base transition-colors duration-200"
                 >
                   <span>Download Resume</span>
