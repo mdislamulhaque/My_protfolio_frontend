@@ -3,6 +3,8 @@ import { ArrowRight, Mail, Download, Github, Linkedin, Facebook, Twitter, Termin
 import { motion } from 'motion/react';
 import { developerProfile } from '../data';
 
+
+
 // Custom Lucide mapping or inline SVGs for beautiful floating icons
 const FloatingIcon = ({ children, className, delay = 0, duration = 6 }: { children: ReactNode, className: string, delay?: number, duration?: number }) => (
   <motion.div
@@ -233,7 +235,7 @@ export default function Hero() {
 
             {/* Generated Abstract Tech Artwork as structural backdrop */}
             <img
-              src="./src/assets/images/abstract_tech_banner_1784610177386.jpg"
+              src="https://i.ibb.co.com/Y766Ryqz/abstract-tech-banner-1784610177386.jpg"
               alt="Futuristic glowing code lines"
               className="absolute inset-0 w-full h-full object-cover opacity-50 dark:opacity-30 z-0"
               referrerPolicy="no-referrer"
