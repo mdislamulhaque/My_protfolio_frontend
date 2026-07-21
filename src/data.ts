@@ -15,10 +15,10 @@ export const developerProfile: DeveloperProfile = {
   phone: "01640128028",
   location: "Dhaka, Bangladesh (Available for Remote Work)",
   socials: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    facebook: "https://facebook.com"
+    github: "https://github.com/mdislamulhaque",
+    linkedin: "https://www.linkedin.com/in/islamul-haque96/",
+    twitter: "https://x.com/islamul_net",
+    facebook: "https://www.facebook.com/Mabdullahf96"
   }
 };
 
@@ -163,9 +163,9 @@ export const projectsData: Project[] = [
 export const experienceData: Experience[] = [
   {
     id: "exp-1",
-    role: "Senior Frontend Engineer",
-    company: "DevCraft Solutions",
-    duration: "2024 - Present",
+    role: "Frontend Web Developer",
+    company: "Vivacombd",
+    duration: "2025 - Present",
     description: [
       "Led frontend engineering to design and ship a premium React/Next.js SaaS interface, improving Core Web Vitals and lowering FCP by 35%.",
       "Pioneered TypeScript and component-driven modular systems across all legacy codebases, resulting in a 40% reduction in UI runtime crashes.",
@@ -174,23 +174,11 @@ export const experienceData: Experience[] = [
     type: "experience",
     tags: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Gemini API"]
   },
-  {
-    id: "exp-2",
-    role: "Frontend Developer (Freelance / Contract)",
-    company: "Thorne Digital Labs",
-    duration: "2022 - 2024",
-    description: [
-      "Shipped 25+ pixel-perfect client websites and responsive web applications with modern design systems and SEO best practices.",
-      "Built custom high-fidelity storefronts, portfolio layouts, and interactive single page apps utilizing Tailwind CSS, Bootstrap, and Framer Motion.",
-      "Implemented modular, accessible components conforming to WCAG/ARIA guidelines for maximum reach and organic usability."
-    ],
-    type: "experience",
-    tags: ["React.js", "Next.js", "Tailwind CSS", "Framer Motion", "Git"]
-  },
+  
   {
     id: "edu-1",
-    role: "B.S. in Computer Science & Engineering",
-    company: "State University",
+    role: "Diploma in Computer Science & Engineering",
+    company: "TMSS INSTITUTE OF SCIENCE & ICT (TISI)",
     duration: "2018 - 2022",
     description: [
       "Specialized in Software Engineering, Web Systems, and Database Architectures.",
@@ -201,11 +189,22 @@ export const experienceData: Experience[] = [
   },
   {
     id: "cert-1",
-    role: "Advanced Frontend & AI Integration Certification",
-    company: "Tech Academy Global",
-    duration: "2023",
+    role: "Web Development Course",
+    company: "Programming Hero",
+    duration: "2024",
     description: [
       "Professional intensive focus on advanced React patterns, complex client-side state design, animations, and AI model implementations."
+    ],
+    type: "education",
+    tags: ["React.js", "Next.js", "AI Integration", "TypeScript"]
+  },
+   {
+    id: "cert-2",
+    role: "Reactive Accelator Course",
+    company: "LWS",
+    duration: "2024",
+    description: [
+      "Professional intensive focus on advanced React patterns and Basic to Advance Next.js, complex client-side state design, animations, and AI model implementations."
     ],
     type: "education",
     tags: ["React.js", "Next.js", "AI Integration", "TypeScript"]
